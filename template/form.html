@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Let's Data - Data Science Experience - Deploy de Modelo</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+          rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+    * Template Name: Multi - v4.7.0
+    * Template URL: https://bootstrapmade.com/multi-responsive-bootstrap-template/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+
+<body>
+<br><br><br><br>
+
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+        <h1 class="logo"><a href="/"><img src="assets/img/letsride.png" height="200"></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="nav-link scrollto active" href="/">Home</a></li>
+                <li><a class="nav-link scrollto" href="#services">Serviços</a></li>
+                <li><a class="nav-link scrollto " href="#portfolio">Clientes</a></li>
+                <li><a class="nav-link scrollto" href="#team">Time</a></li>
+                <li><a class="nav-link scrollto" href="#about">Sobre a Let's Read</a></li>
+                <li><a class="getstarted scrollto" href="/carros">CARROS</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+    </div>
+</header><!-- End Header -->
+
+
+
+<main id="main">
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+        <div class="container" data-aos="fade-up">
+            <br/><br/><br/>
+            <div class="section-title">
+                <h2>MACHINE LEARNING</h2>
+                <p>Previsão de Preços de Carros</p>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <form action="/preco_carro" name="preco_carro" method="post" role="form" class="php-email-form">
+                        <table cellpadding="10" cellspacing="10">
+
+
+                            <tr>
+                                <td class="col-label"><label>Taxa</label></td>
+                                <td class="col-input"><input type="text" class="form-control" name="Taxa" placeholder="Taxa"></td>
+                                <td class="col-label"><label>Marca</label></td>
+                                <td class="col-input"><input type="text" class="form-control" name="Marca" placeholder="Marca"></td>
+                            </tr>
+                            <tr>
+                                <td class="col-label"><label>Modelo</label></td>
+                                <td class="col-input"><input type="text" class="form-control" name="Modelo" placeholder="Modelo"></td>
+                                <td class="col-label"><label>Ano Fabricacao</label></td>
+                                <td class="col-input"><input type="text" class="form-control" name="AnoFabricacao" placeholder="Ano Fabricacao"></td>
+                            </tr>
+                            <tr>
+                                <td class="col-label"><label>Categoria</label></td>
+                                <td class="col-input"><input type="text" class="form-control" name="Categoria" placeholder="Categoria"></td>
+                                <td class="col-label"><label>Bancos de Couro</label></td>
+                                <td class="col-input"><input type="text" class="form-control" name="BancosDeCouro" placeholder="Bancos de Couro"></td>
+                            </tr>
+                            <tr>
+                                <td class="col-label"><label>Combustivel</label></td>
+                                <td class="col-input"><input type="text" class="form-control" name="Combustivel" placeholder="Combustivel"></td>
+                                <td class="col-label"><label>Volume Motor</label></td>
+                                <td class="col-input"><input type="text" class="form-control" name="VolumeMotor" placeholder="Volume Motor"></td>
+                            </tr>
+                            <tr>
+                                <td class="col-label"><label>Quilometragem</label></td>
+                                <td class="col-input"><input type="text" class="form-control" name="Quilometragem" placeholder="Quilometragem"></td>
+                                <td class="col-label"><label>Cilindradas</label></td>
+                                <td class="col-input"><input type="text" class="form-control" name="Cilindradas" placeholder="Cilindradas"></td>
+                            </tr>
+                            <tr>
+                                <td class="col-label"><label>Cambio</label></td>
+                                <td class="col-input"><input type="text" class="form-control" name="Cambio" placeholder="Cambio"></td>
+                                <td class="col-label"><label>Tracao</label></td>
+                                <td class="col-input"><input type="text" class="form-control" name="Tracao" placeholder="Tracao"></td>
+                            </tr>
+                            <tr>
+                                <td class="col-label"><label>Portas</label></td>
+                                <td class="col-input"><input type="text" class="form-control" name="Portas" placeholder="Portas"></td>
+                                <td class="col-label"><label>Direcao</label></td>
+                                <td class="col-input"><input type="text" class="form-control" name="Direcao" placeholder="Direcao"></td>
+                            </tr>
+                            <tr>
+                                <td class="col-label"><label>Cor</label></td>
+                                <td class="col-input"><input type="text" class="form-control" name="Cor" placeholder="Cor"></td>
+                                <td class="col-label"><label>Airbags</label></td>
+                                <td class="col-input"><input type="text" class="form-control" name="Airbags" placeholder="Airbags"></td>
+                            </tr>
+                            <tr class="form_wrapper">
+                                <td colspan='2'><input type="submit" value="Obter Cotação!!"/></td>
+                            </tr>
+                        </table>
+
+
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Contact Section -->
+
+</main><!-- End #main -->
+
+
+<div id="preloader"></div>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/purecounter/purecounter.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+
+
+
+
+</body>
+
+</html>
